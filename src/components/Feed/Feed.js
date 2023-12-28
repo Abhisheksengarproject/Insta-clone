@@ -19,15 +19,17 @@ const Feed = () => {
           </section>
           <section className='flex flex-col gap-y-4'>
             {
-              new Array(5).fill(1).map((_,i)=> (
-                <Post key={i}/>
+              new Array(5).fill(1).map((_, i) => (
+                <Post key={i} postIndex={i} />
               ))
             }
           </section>
         </div>
         {/* sidebar */}
         <div className='fixed right-[15%] max-w-sm'>
-
+          <div className='flex'>
+            condensate,matter in the form of a gas of atoms, molecules, or elementary particles that have been so chilled that their motion is virtually halted and as a consequence they lose their separate identities and merge into a single entity. A Bose-Einstein condensate, the fifth state of matter, is formed at low temperatures when a significant number of the elementary particles classified as bosons (see Bose-Einstein statistics) collapse into the same quantum state. A similar condensate that consists of fermions (see Fermi-Dirac statistics) instead of bosons is known as a fermionic condensate,
+          </div>
         </div>
       </div>
     </div>

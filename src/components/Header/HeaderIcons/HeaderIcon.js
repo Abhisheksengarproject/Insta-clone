@@ -1,6 +1,6 @@
 import React from 'react'
 
-const HeaderIcon = ({ Icon, name }) => {
+const HeaderIcon = ({ Icon}) => {
   return (
     <div className='hover:bg-slate-600 transition rounded-2xl cursor-pointer p-2'>
       <Icon
